@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation Example</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="javascript.js" defer></script>
+  </head>
+  <body>
+    <div id="error"></div>
+    <form class="form" id="form" action="" method="GET">
+      <ul class="form-list" id="formList">
+        <li>
+          <label for="email">Email</label>
+          <input type="email" name="eamil" id="email" required />
+        </li>
+        <li>
+          <label for="country">Country</label>
+          <input type="email" name="email" id="email" required />
+        </li>
+        <li>
+          <label for="postcode">Postcode</label>
+          <input type="text" name="postcode" id="postcode" required />
+        </li>
+        <li>
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required />
+        </li>
+        <li>
+          <label for="confirmPassword">Comfirm Password</label>
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+            required
+          />
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
