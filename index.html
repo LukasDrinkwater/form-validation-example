@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form Validation Example</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./javascript.js" defer></script>
   </head>
   <body>
     <div id="error"></div>
@@ -14,28 +14,26 @@
       <ul class="form-list" id="formList">
         <li>
           <label for="email">Email</label>
-          <input type="email" name="eamil" id="email" required />
+          <input type="email" name="eamil" id="email" />
         </li>
         <li>
           <label for="country">Country</label>
-          <input type="email" name="email" id="email" required />
+          <input type="text" name="country" id="country" />
         </li>
         <li>
           <label for="postcode">Postcode</label>
-          <input type="text" name="postcode" id="postcode" required />
+          <input type="text" name="postcode" id="postcode" />
         </li>
         <li>
           <label for="password">Password</label>
-          <input type="password" name="password" id="password" required />
+          <input type="password" name="password" id="password" />
         </li>
         <li>
           <label for="confirmPassword">Comfirm Password</label>
-          <input
-            type="password"
-            name="confirmPassword"
-            id="confirmPassword"
-            required
-          />
+          <input type="password" name="confirmPassword" id="confirmPassword" />
+        </li>
+        <li>
+          <button type="submit">Submit</button>
         </li>
       </ul>
     </form>
